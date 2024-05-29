@@ -12,11 +12,14 @@ import (
 )
 
 func main() {
-	args, err := os.ReadFile("data.txt")
+	if len(os.Args) != 2 {
+		return
+	}
+	args, err := os.ReadFile(os.Args[1])
 	if err != nil {
 		fmt.Println("Error reading file")
 	}
-	// fmt.Println(string(args))
+
 	data := string(args)
 	value := []float64{}
 	g := strings.Split(data, "\n")
@@ -37,7 +40,7 @@ func main() {
 		value = append(value, num)
 	}
 	sort.Float64s(value)
-	// fmt.Println(len(value))
+
 	average := mathskills.Average(value)
 
 	fmt.Printf("Average: %g\n", math.Round(average))
