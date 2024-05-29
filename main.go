@@ -39,9 +39,15 @@ func main() {
 
 		value = append(value, num)
 	}
+	if len(value) == 0 {
+		return
+	}
+	//sorts the data in the data.txt file
 	sort.Float64s(value)
 
 	average := mathskills.Average(value)
+	median := mathskills.Median(value)
 
 	fmt.Printf("Average: %g\n", math.Round(average))
+	fmt.Printf("Median: %g\n", math.Round(median))
 }
