@@ -48,8 +48,10 @@ func main() {
 	average := mathskills.Average(value)
 	median := mathskills.Median(value)
 	variance := mathskills.Variance(value)
+	deviation := mathskills.Deviation(value)
 
-	fmt.Printf("Average: %g\n", math.Round(average))
-	fmt.Printf("Median: %g\n", math.Round(median))
+	fmt.Printf("Average: %.0f\n", math.Round(average))
+	fmt.Printf("Median: %.0f\n", math.Round(median))
 	fmt.Printf("Variance: %.0f\n", math.Round(variance))
+	fmt.Printf("Deviation: %.0f\n", math.Round(deviation))
 }
