@@ -18,6 +18,7 @@ func main() {
 	args, err := os.ReadFile(os.Args[1])
 	if err != nil {
 		fmt.Println("Error reading file")
+		os.Exit(1)
 	}
 
 	data := string(args)
