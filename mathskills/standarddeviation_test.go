@@ -17,4 +17,3 @@ func TestStandardDeviation(t *testing.T) {
 		t.Errorf("Expected %v, but got %v", expected, roundOutput)
 	}
 }
-
