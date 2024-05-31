@@ -17,6 +17,11 @@ The purpose of this project is to develop a statistical calculator capable of ca
 
 ## Instructions
 
+To clone this repository: use the command below on your terminal:
+```
+git clone >paste the link
+```
+
 The program should be able to read data from a file and compute each of the forementioned statistics. The input data will be provided in a file specified as a command-line argument. Each line in the file contains one value, representing a statistical population.
 
 To execute the program, users will use a command below
