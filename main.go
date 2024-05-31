@@ -14,7 +14,8 @@ import (
 // This Go program reads numeric values from a file, calculates average, median, variance, and standard deviation.
 func main() {
 	if len(os.Args) != 2 {
-		return
+		fmt.Println("Usage: go run . data.txt")
+		os.Exit(1)
 	}
 	args, err := os.ReadFile(os.Args[1])
 	if err != nil {
