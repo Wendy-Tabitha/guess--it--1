@@ -2,6 +2,7 @@ package mathskills
 
 import "math"
 
+// Calculates the variance of a slice of float64 numbers.
 func Variance(num []float64) float64 {
 	n := len(num)
 	sum := 0.0

@@ -1,5 +1,6 @@
 package mathskills
 
+// Calculates the median of a slice of float64 numbers.
 func Median(num []float64) float64 {
 	n := len(num)
 	//median for if the length of the slice is an even number
