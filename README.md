@@ -62,3 +62,6 @@ This project is designed to help learn about:
 - Median
 - Variance
 - Standard Deviation
+
+This project was done by:
+[Wendy Akinyi](https://learn.zone01kisumu.ke/git/weakinyi)
