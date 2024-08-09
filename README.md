@@ -54,3 +54,6 @@ This project is designed to help learn about:
 
 This project was done by:
 [Wendy-Tabitha](https://github.com/Wendy-Tabitha/guess--it--1)
+
+## License
+This project is licensed under the terms of the [MIT License](./LICENSE).
