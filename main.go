@@ -13,7 +13,7 @@ import (
 func main() {
 	numbers := []float64{}
 	scanner := bufio.NewScanner(os.Stdin)
-	windowSize := 5 // Adjust window size as needed
+	windowSize := 2 // Adjust window size as needed
 
 	for scanner.Scan() {
 		lines := scanner.Text()
