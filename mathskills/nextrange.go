@@ -1,6 +1,5 @@
 package mathskills
 
-
 func Nextrange(numbers []float64) (int, int) {
         avg := Average(numbers)
         stdDev := Deviation(numbers)
